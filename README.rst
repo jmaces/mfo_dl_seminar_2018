@@ -18,7 +18,11 @@ You can download the paper on `arxiv <https://arxiv.org/abs/1610.01145>`_ (see p
 Content of this repository
 --------------------------
 
-TO BE ADDED SHORTLY
+- ``cluster-experiments`` contains the code we used to run many of our 
+  experiments simultaneously on a computational cluster. We provide the code for
+  the sake of completeness, but it is not directly needed for the practical session.
+- ``interactive-experiments`` contains Jupyter notebooks with the interactive 
+  experiments we will run during the session.
 
 
 Requirements
