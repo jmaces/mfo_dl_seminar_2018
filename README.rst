@@ -9,7 +9,11 @@
 About this repository
 ---------------------
 
-Here you find all the information and materials needed to follow the **practical session** of the seminar. During this session we will give a short introduction to the deep learning framework **Tensorflow** and use it to numerically validate and explore some results concerning the approximation properties of deep ReLU neural networks. The content of the session is heavily based on the works of Dmitry Yarotsky. Have a look at his paper on `Error bounds for approximations with deep ReLU networks <https://www.sciencedirect.com/science/article/pii/S0893608017301545>`_ for more details. 
+Here you find all the information and materials needed to follow the **practical session** of the seminar. During this session we will give a short introduction to the deep learning framework **Tensorflow** and use it to numerically investigate the implications of theoretical results concerning the approximation properties of deep ReLU neural networks. In particular, we will consider an observation concerning the relationship between the depth of a network, the regularity of the chosen acitvation function and the approximation properties of the network made by D. Yarotsky in the following paper:
+
+- Yarotsky, D. (2017). Error bounds for approximations with deep ReLU networks. Neural Networks, 94, 103-114.
+
+You can download the paper on `arxiv <https://arxiv.org/abs/1610.01145>`_ (see p. 28 for more details).
 
 Content of this repository
 --------------------------
@@ -40,7 +44,7 @@ Installation instructions
 
 2. Install the **miniconda** package and environment manager. You can find instructions on how to do it in the `Conda documentation <https://conda.io/docs/user-guide/install/index.html>`_. Make sure to get the version for Python 3.
 
-3. Create a new conda environment by running the following in your command line (you can choose a different name for the environment if you want):
+3. Create a new conda environment by running the following in your command line, respectively the Anaconda Prompt, if you are a Windows user (you can choose a different name for the environment if you want):
 
     .. code-block:: bash
         
