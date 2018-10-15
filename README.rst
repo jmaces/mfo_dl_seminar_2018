@@ -23,6 +23,7 @@ Content of this repository
   the sake of completeness, but it is not directly needed for the practical session.
 - ``interactive-experiments`` contains Jupyter notebooks with the interactive 
   experiments we will run during the session.
+- ``lectures`` contains materials from the lectures
 
 
 Requirements
