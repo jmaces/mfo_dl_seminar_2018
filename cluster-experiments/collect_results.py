@@ -2,7 +2,7 @@ import numpy as np
 import os
 import sys
 
-# searches for results files in a directory and reduces the data into a single file
+# searches for results files in a directory and reduces data into a single file
 def collect_results(directory):
     print('Searching for result files in {}.'.format(directory))
     try:

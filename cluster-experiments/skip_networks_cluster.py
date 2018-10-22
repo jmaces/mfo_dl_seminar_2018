@@ -115,7 +115,7 @@ print('depth:\t\t\t{}'.format(DEPTH))
 print('width:\t\t\t{}'.format(WIDTH))
 print('number of neurons:\t{}'.format(2+(DEPTH-2)*WIDTH))
 print('number of connections:\t{}'.format(
-    1 + (DEPTH-2)*WIDTH*2+WIDTH*WIDTH*(DEPTH-3)*(DEPTH-2)/2
+    2 + (DEPTH-2)*WIDTH*3+WIDTH*WIDTH*(DEPTH-3)*(DEPTH-2)/2
 ))
 print('activation:\t\t{}'.format(ACTIVATION.__name__))
 print('learning rate:\t\t{} to {}'.format(INIT_L_RATE, FINAL_L_RATE))
@@ -201,7 +201,7 @@ np.savez_compressed(
     depth=DEPTH,
     width=WIDTH,
     neurons=2+(DEPTH-2)*WIDTH,
-    connections=1+(DEPTH-2)*WIDTH*2+WIDTH*WIDTH*(DEPTH-3)*(DEPTH-2)/2,
+    connections=2+(DEPTH-2)*WIDTH*3+WIDTH*WIDTH*(DEPTH-3)*(DEPTH-2)/2,
     activation=ACTIVATION.__name__,
     iterations=NUM_ITER,
     batch_size=BATCH_SIZE,
